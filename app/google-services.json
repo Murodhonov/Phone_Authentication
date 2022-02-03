@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436539899081",
+    "project_id": "phoneauthenticationhomework",
+    "storage_bucket": "phoneauthenticationhomework.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436539899081:android:63458e7e35ec34e7c6e118",
+        "android_client_info": {
+          "package_name": "uz.umarxon.phoneauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436539899081-9ofuh4idskee63lmact4a6bedc4vnuf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlM3uhdSJmSl8T0_CIfRNSw4fbNf-uy9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436539899081-9ofuh4idskee63lmact4a6bedc4vnuf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Xush kelibsiz!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="10dp"
+        android:text="Avtorizatsiyadan o’tish uchun telefon\nraqamingizni kiriting"
+        android:textColor="#2D3A45"
+        android:textColorHint="#2D3A45" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5sp"
+        android:text="Telefon raqamingiz"
+        android:textColor="#2D3A45" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#2D3A45"
+        android:textColorHint="#2D3A45"
+        android:inputType="phone"
+        android:background="@drawable/edt_background"
+        android:hint="(+99893) 123-45-67"
+        android:padding="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="163dp"
+        android:layout_height="44dp"
+        android:layout_margin="10dp"
+        android:outlineAmbientShadowColor="#FCB600"
+        android:outlineSpotShadowColor="#FCB600"
+        app:cardBackgroundColor="#FCB600"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Kirish"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
